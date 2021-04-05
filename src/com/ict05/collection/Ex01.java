@@ -15,7 +15,8 @@ public class Ex01 {
 	
 	// Collection의 주요 메소드 
 	
-	// test  hjghjghjghjghjghjg
+	// test  
+	// 집에서 git 다운로드 성공적 
 	
 	}
 }
