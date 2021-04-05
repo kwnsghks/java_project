@@ -17,5 +17,6 @@ public class Ex01 {
 	
 	// test  hjghjghjghjghjghjghj
 		System.out.println("123");
+		System.out.println("123");
 	}
 }
