@@ -38,6 +38,7 @@ public class Ex01 {
 		int result = test.sub(8, 5);
 		System.out.println("7"+Thread.currentThread());
 		System.out.println(result);
+		System.out.println("8"+Thread.currentThread());
 		
 	}
 }
