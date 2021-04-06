@@ -38,5 +38,6 @@ public class Ex01 {
 		System.out.println("7"+Thread.currentThread());
 		System.out.println(result);
 		System.out.println();
+		System.out.println();
 	}
 }
