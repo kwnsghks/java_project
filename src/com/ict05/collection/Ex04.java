@@ -1,12 +1,12 @@
 package com.ict05.collection;
 
 import java.util.HashSet;
+import java.util.TreeSet;
 
 public class Ex04 {
-
 	public static void main(String[] args) {
 		// 로또 번호 : 1~45 (랜덤, 6자리, 중복안됨)
-		HashSet<Integer> lotto = new HashSet<Integer>();
+		HashSet<Integer> lotto = new HashSet<Integer>();  // 클래스에선 int가 아닌 integer 사용
 		for (int i = 0; i < 6; i++) {
 			int k = (int)(Math.random()*45) + 1 ;  // 1~45
 			boolean b = lotto.add(k);
