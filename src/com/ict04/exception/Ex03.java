@@ -31,9 +31,7 @@ public class Ex03 {
 		} catch (Exception e) {
 		   System.out.println("제대로 입력하세요 : " + e);
 		} 
-	    
 	    System.out.println("수고하셨습니다.");
-		
 	}
 }
 

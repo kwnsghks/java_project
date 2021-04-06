@@ -9,7 +9,6 @@ public class Ex02 {
 		} catch (Exception e) {
 			System.out.println("숫자만 입력하세요");
 		}
-		
 		System.out.println("수고 하셨습니다.");
 	}
 }
