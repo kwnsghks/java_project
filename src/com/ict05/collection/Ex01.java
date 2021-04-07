@@ -14,7 +14,6 @@ public class Ex01 {
 	// Collection<E>를 상속받은 인터페이스 : Set<E>, List<E>, Queue<E>
 	
 	// Collection의 주요 메소드 
-<<<<<<< HEAD
 	// add(E e) : boolean => 해당 컬렉션에 객체 추가, 성공하면 true, 실패하면 false
 	// addAll (collection<? extends E>c) : boolean
 		// => 특정컬렉션에 있는 모든 요소들을 다른 컬렉션에 추가
@@ -31,12 +30,10 @@ public class Ex01 {
 	// size() : int => 컬렉션 안에 존재하는 요소들의 수 (for문에 사용가능)
 	// toArray() : object[] => 컬렉션을 배열로 만든다.
 		
-		
-=======
+
 	
 	// test  
 	// 집에서 git 다운로드 성공적 
 	
->>>>>>> refs/remotes/origin/master
 	}
 }
