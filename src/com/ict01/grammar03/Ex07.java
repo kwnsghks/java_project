@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Ex07{
 	public static void main(String[] args){
         // Scanner 클래스 알아보기 
-	// Scanner 의 소속은 java.util.Scanner이다.
+		// Scanner 의 소속은 java.util.Scanner이다.
         // java.lang 의 소속된 클래스 마음대로 사용했지만 
         // 이외에 클래스는 소속을 표시해야 된다.(import)
  
