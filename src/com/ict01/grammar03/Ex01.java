@@ -11,7 +11,7 @@ class Ex01{
         // - false를 만나면 이후에 있는 연산 하지 않는다.
          	
     	int s1 = 10 ;
-	int s2 = 7 ;
+    	int s2 = 7 ;
 
       	boolean result = true && true ;
         System.out.println(result);
