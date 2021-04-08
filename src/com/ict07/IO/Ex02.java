@@ -1,6 +1,7 @@
 package com.ict07.IO;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 
 public class Ex02 {
 	public static void main(String[] args) {
@@ -15,15 +16,24 @@ public class Ex02 {
 		
 		File file = new File(pathname_3);
 		String[] arr = file.list();
+
+		// 날짜 형식 지정 , 날짜를 넣을 때 필요한게 포맷↓
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd-hh:mm");
+		
 		for (String k : arr) {
 			// System.out.println(k);
 			File file2 = new File(pathname_3, k);
-			// System.out.println(file2);
+			System.out.println(file2);
+			// 컴퓨터에 저장할 수 있는 종류는 디렉토리 or 파일 밖에 없음.
+			
+			// 수정날짜 구하기 (첫주차에 했었음)
 			if(file2.isDirectory()) {
-				System.out.println("디렉토리 : " + file2);
+				System.out.println("디렉토리 : " + file2 + "\n크기가 존재하지 않음\n"  +
+						"수정한 날짜 : " + sdf.format(file2.lastModified()));
+				
 			}else{
-				System.out.println("파일 : " + file2);
-			}
+				System.out.println("\n파일 : " + file2 + "크기 : " + (int)(file2.length()/1024)+"KB\n"); 
+			}                                  // length는 길이가 아닌 용량을 뜻함. ↑
 		}
 	}
 }

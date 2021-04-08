@@ -24,7 +24,6 @@ public class Ex01 {
 				System.out.println(4);
 			}
 		} catch (Exception e) {
-			// TODO: handle exception
 		}
 		
 		System.out.println("수고 하셨습니다.");
