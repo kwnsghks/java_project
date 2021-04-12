@@ -61,8 +61,6 @@ public class Ex02 {
 			String msg = (String) it.next() ; // next() : 다음 객체를 return하고 다음 객체로 이동.
 			System.out.println(msg) ;
 		}
-		
-		
 	}
 }
 

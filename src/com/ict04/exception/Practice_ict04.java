@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Practice_ict04 {
 	public static void main(String[] args) {
+		
 		Practice_ict04 test = new Practice_ict04();
 		Scanner scan = new Scanner(System.in);
 		try {

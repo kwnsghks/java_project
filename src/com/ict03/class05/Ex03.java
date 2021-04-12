@@ -14,7 +14,7 @@ package com.ict03.class05;
 // 6.  인터페이스 => 인터페이스 ,  클래스 => 클래스  : extends 예약어 사용
 //     클래스 => 인터페이스  : implements 예약어 사용,  인터페이스 => 클래스 (사용불가 X)
 
-// 일반클래스가 인터페이스를 상속 : 반드시 오버라이딩 해야 한다ㅣ
+// 일반클래스가 인터페이스를 상속 : 반드시 오버라이딩 해야 한다.
  class Ex03  implements Ex01{
 	@Override
 	public void like() {

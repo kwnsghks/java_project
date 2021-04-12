@@ -23,7 +23,7 @@ public class Ex23_Output {
 				oos = new ObjectOutputStream(bos);
 				
 				// 객체 직렬화를 하기 위한 객체 만듦.
-				Ex23_VO vo = new Ex23_VO("둘리", 28, 67, 3, true);
+				Ex23_VO vo = new Ex23_VO("둘리", 28, 67.3, true);
 				
 				// 객체 직렬화
 				oos.writeObject(vo);

@@ -43,7 +43,10 @@ class Ex06{
          // 어떤수를 2로 나눈 나머지가 0과 같으면 짝수
          // 어떤수를 k로 나눈 나머지가 0이면 k의 배수
 
-  
+         		double sa1 = 36.66666 ;
+ 				int sa2 = (int)(sa1 * 10);
+ 				double sa3 = sa2 / 10.0;
+ 				System.out.println(sa3);
  
 	}
 }
