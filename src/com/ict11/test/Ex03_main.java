@@ -10,6 +10,9 @@ public class Ex03_main {
 		
 		Thread thread_2 = new Thread(t1,"cat");
 		thread_2.start();
+		
+		System.out.println(thread_1);
+		System.out.println(thread_2);
 
 	}
 
