@@ -47,11 +47,11 @@ public class test1{
 			}
 				System.out.println("번 호\t총 점\t평 균\t학 점\t순 위");
 				for (int j = 0; j < arr.length; j++) {
-					System.out.print(arr[0]+"\t");
-					System.out.print(arr[1]+"\t");
-					System.out.print(arr[2]+"\t");
-					System.out.print(arr[3]+"\t");
-					System.out.println(arr[4]+"\t");
+					System.out.print(arr[i][0]+"\t");
+					System.out.print(arr[i][1]+"\t");
+					System.out.print(arr[i][2]+"\t");
+					System.out.print(arr[i][3]+"\t");
+					System.out.print(arr[i][4]+"\t");
 					
 				}
 			
