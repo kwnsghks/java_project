@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/study/util/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/study/util/03_데이터베이스 구현/01_MySQL/mysql-connector-java-8.0.22.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

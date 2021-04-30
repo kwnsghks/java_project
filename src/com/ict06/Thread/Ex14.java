@@ -12,10 +12,10 @@ public class Ex14 implements Runnable{
 
 	@Override
 	public synchronized void run() {
-		for (int i = 0; i < 50; i++) {
+		for (int i = 0; i < 100; i++) {
 			System.out.println(Thread.currentThread().getName()+":"+(++x));
 			
-			if(x == 25) {
+			if(x == 100) {
 				try {
 					wait();
 				} catch (InterruptedException e) {

@@ -5,6 +5,5 @@ public class Ex14_main {
 		Ex14 t1 = new Ex14();
 		new Thread(t1,"dog").start();
 		new Thread(t1,"cat").start();
-		new Thread(t1,"tiger").start();
 	}
 }

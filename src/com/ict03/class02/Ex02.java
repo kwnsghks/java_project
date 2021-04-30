@@ -38,7 +38,7 @@ public class Ex02 {
 		
 		Calendar now = Calendar.getInstance(); // 컴퓨터의 현재 날짜와 시간, 요일을 뜻한다.
 		System.out.println(now.get(Calendar.YEAR)+"년도");
-		System.out.println(now.get(Calendar.MONTH) +1 +"월"); // 0 - 11
+		System.out.println(now.get(Calendar.MONTH) +1+"월"); // 0 - 11
 		System.out.println(now.get(Calendar.DATE) + "일");
 		System.out.println(now.get(Calendar.DAY_OF_MONTH) + "일");
 		
